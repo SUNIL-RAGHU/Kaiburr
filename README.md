@@ -30,13 +30,13 @@ docker pull mongo:latest
 ### **Step 2: Clone the repository**
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/SUNIL-RAGHU/Kaiburr-Task1.git
 ```
 
 ### **Step 3: Navigate to the repository**
 
 ```bash
-cd <repository_directory>
+cd Kaiburr-Task1
 ```
 
 ### **Step 4: Build the Docker image for the Spring Boot application**
@@ -45,10 +45,10 @@ cd <repository_directory>
 docker build -t kaiburr-api .
 ```
 
-### **Step 5: Open the terminal and navigate to `src/resources`**
+### **Step 5: Open the terminal and navigate to `/src/main/resources`**
 
 ```bash
-cd src/resources
+cd src/main/resources
 ```
 
 ### **Step 6: Start the Docker Compose to run MongoDB and the Spring Boot application**
